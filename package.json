@@ -1,23 +1,27 @@
 {
-  "name": "imag",
+  "name": "ObtainImages",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mager19",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mager19/obtenerImages.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "tar": ">=4.4.2"
   },
-  "keywords": [
-    "imag"
-  ],
-  "dependencies": {
-    "gulp-sourcemaps": "^2.6.5"
-  }
+  "bugs": {
+    "url": "https://github.com/mager19/obtenerImages/issues"
+  },
+  "homepage": "https://github.com/mager19/obtenerImages#readme"
 }
