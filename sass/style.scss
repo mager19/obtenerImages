@@ -18,7 +18,7 @@ header {
 }
 
 #contenido {
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 
 .item-imag {
@@ -62,7 +62,16 @@ aside {
   text-align: center;
 }
 
-input {
-  height: 40px;
-  padding: 10px;
+form{
+  background: #f9f9f9;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+  text-align: left;
+
+  input {
+    height: 40px;
+    padding: 10px;
+  }
 }
